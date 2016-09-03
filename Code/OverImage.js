@@ -114,6 +114,8 @@ self.embedCustomArt = function(tag) {
     GameDev.ResourceManager.resources[ResourceKeys.Head12].src = '' + tag.head12 + ''
 */
 
+// Maybe something like this
+/*
 GameDev.ResourceManager.resources[ResourceKeys.PreviewDesk].src = '' + tag.desk + '';
 
 if (tag.desk.val.length > 0) {
@@ -122,6 +124,7 @@ if (tag.desk.val.length > 0) {
    else {
      GameDev.ResourceManager.resources[ResourceKeys.PreviewDesk] = GameDev.ResourceManager.resources[ResourceKeys.PreviewDesk];
    }
+*/
 
 };
 
@@ -129,7 +132,7 @@ if (tag.desk.val.length > 0) {
 
 var level1Change = function() {
     self.embedCustomArt({
-        // desk: "./images/player/head1.png",
+      //  desk: "./images/player/head1.png",
         level1: "./mods/OverImage/images/level1.png"
     });
 }
