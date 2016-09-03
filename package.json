@@ -1,0 +1,14 @@
+{
+    "id": "OverImage",
+    "name": "OverImage",
+	"version": "ALPHA-0.0.1",
+    "author": "Chizbe Joe",
+    "url": "https://forum.greenheartgames.com/t/an-unfinished-project-take-a-look/21222",
+    "description": "This mods allows modders to easily overwrite in-game graphics and images.",
+    "main": "./Main.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+
+    },
+    "image": "Icon/OverImageLogo.png"
+}
